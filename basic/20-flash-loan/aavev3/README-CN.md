@@ -25,7 +25,7 @@ cp .env.example .env
 
 - 启动闪贷 && 借贷->铸币->还贷
 ```外壳
-npx hardhat scripts/deploy_aavev3_flashloan.js --network goerli
+npx hardhat run scripts/deploy_aavev3_flashloan.js --network goerli
 ```
 
 ## 参考链接
